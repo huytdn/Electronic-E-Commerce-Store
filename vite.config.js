@@ -4,5 +4,17 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss()],
+  plugins: [
+    react(),
+    tailwindcss({
+      theme: {
+        extend: {
+          colors: {
+            themeyellow: "#f5e60d",
+            themepurple: "#502ec3",
+          },
+        },
+      },
+    }),
+  ],
 });
