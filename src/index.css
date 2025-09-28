@@ -4,8 +4,6 @@
   --color-themepurple: #502ec3;
 }
 
-grid-template-columns: auto auto auto auto auto;
-
 #icons {
   display: none;
 }
@@ -14,4 +12,8 @@ grid-template-columns: auto auto auto auto auto;
   #icons {
     display: flex !important;
   }
+}
+
+body {
+  overflow-x: hidden;
 }

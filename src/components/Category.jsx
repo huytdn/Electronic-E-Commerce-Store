@@ -22,7 +22,7 @@ const Category = () => {
   }, []);
   return (
     <div
-      id="category"
+      id="about"
       className="w-full bg-gray-100 lg:px-20 px-5 pt-[130px] pb-[80px] flex lg:flex-row flex-col justify-center items-center gap-20"
     >
       <div
@@ -46,8 +46,13 @@ const Category = () => {
           data-aos-delay="100"
           className="flex flex-col justify-center items-center gap-6"
         >
-          <img src={cat1} alt="" className="rounded-full cursor-pointer" />
-          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
+          <img
+            src={cat1}
+            alt=""
+            className="rounded-full cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+          />
+          <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer ">
             Portable Speakers
           </h1>
         </div>
@@ -56,7 +61,12 @@ const Category = () => {
           data-aos-delay="200"
           className="flex flex-col justify-center items-center gap-6"
         >
-          <img src={cat2} alt="" className="rounded-full cursor-pointer" />
+          <img
+            src={cat2}
+            alt=""
+            className="rounded-full cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+          />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
             Portable Speakers
           </h1>
@@ -66,7 +76,12 @@ const Category = () => {
           data-aos-delay="300"
           className="flex flex-col justify-center items-center gap-6"
         >
-          <img src={cat3} alt="" className="rounded-full cursor-pointer" />
+          <img
+            src={cat3}
+            alt=""
+            className="rounded-full cursor-pointe transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+          />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
             Portable Speakers
           </h1>
@@ -76,7 +91,12 @@ const Category = () => {
           data-aos-delay="400"
           className="flex flex-col justify-center items-center gap-6"
         >
-          <img src={cat4} alt="" className="rounded-full cursor-pointer" />
+          <img
+            src={cat4}
+            alt=""
+            className="rounded-full cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+          />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
             Portable Speakers
           </h1>
@@ -86,7 +106,12 @@ const Category = () => {
           data-aos-delay="500"
           className="flex flex-col justify-center items-center gap-6"
         >
-          <img src={cat5} alt="" className="rounded-full cursor-pointer" />
+          <img
+            src={cat5}
+            alt=""
+            className="rounded-full cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+          />
           <h1 className="text-black text-xl font-semibold hover:text-themepurple cursor-pointer">
             Portable Speakers
           </h1>

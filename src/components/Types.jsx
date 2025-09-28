@@ -34,7 +34,10 @@ const Types = () => {
           Wireless <br />
           Devices
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button
+          className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        >
           SHOP NOW
         </button>
       </div>
@@ -51,7 +54,10 @@ const Types = () => {
           Wireless <br />
           Devices
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button
+          className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        >
           SHOP NOW
         </button>
       </div>
@@ -68,7 +74,10 @@ const Types = () => {
           Wireless <br />
           Devices
         </h1>
-        <button className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold">
+        <button
+          className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        >
           SHOP NOW
         </button>
       </div>

@@ -25,7 +25,7 @@ const Hero = () => {
 
   return (
     <div
-      id="hero"
+      id="home"
       className="w-full flex justify-center items-center lg:h-[700px] h-[600px]"
     >
       <Slider className="w-full" {...settings}>
@@ -59,13 +59,15 @@ const Hero = () => {
                 Electronics Gadgets
               </span>
             </h1>
-            <button
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold"
-            >
-              ONLINE COLLECTIONS
-            </button>
+            <div data-aos="zoom-in" data-aos-delay="200">
+              <button
+                className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold 
+               cursor-pointer transform transition duration-300 ease-in-out 
+               hover:scale-105"
+              >
+                ONLINE COLLECTIONS
+              </button>
+            </div>
           </div>
         </div>
         <div>
@@ -78,7 +80,7 @@ const Hero = () => {
               data-aos-delay="50"
               className="text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl"
             >
-              Get up to Discounts 80% Off
+              Get up to Discounts 60% Off
             </h1>
             <h1
               data-aos="zoom-in"
@@ -98,13 +100,15 @@ const Hero = () => {
                 Electronics Gadgets
               </span>
             </h1>
-            <button
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold"
-            >
-              ONLINE COLLECTIONS
-            </button>
+            <div data-aos="zoom-in" data-aos-delay="200">
+              <button
+                className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold 
+               cursor-pointer transform transition duration-300 ease-in-out 
+               hover:scale-105"
+              >
+                ONLINE COLLECTIONS
+              </button>
+            </div>
           </div>
         </div>
         <div>
@@ -117,7 +121,7 @@ const Hero = () => {
               data-aos-delay="50"
               className="text-themeyellow border rounded-lg border-themeyellow px-6 py-2 text-xl"
             >
-              Get up to Discounts 80% Off
+              Get up to Discounts 40% Off
             </h1>
             <h1
               data-aos="zoom-in"
@@ -125,7 +129,7 @@ const Hero = () => {
               className="text-white lg:text-[120px] text-[60px] uppercase font-bold lg:leading-[120px] leading-[70px]"
             >
               Bluetooth <br />
-              Headset
+              Speakers
             </h1>
             <h1
               data-aos="zoom-in"
@@ -137,13 +141,15 @@ const Hero = () => {
                 Electronics Gadgets
               </span>
             </h1>
-            <button
-              data-aos="zoom-in"
-              data-aos-delay="200"
-              className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold"
-            >
-              ONLINE COLLECTIONS
-            </button>
+            <div data-aos="zoom-in" data-aos-delay="200">
+              <button
+                className="bg-themeyellow px-6 py-3 rounded-lg text-black font-semibold 
+               cursor-pointer transform transition duration-300 ease-in-out 
+               hover:scale-105"
+              >
+                ONLINE COLLECTIONS
+              </button>
+            </div>
           </div>
         </div>
       </Slider>

@@ -16,7 +16,7 @@ const Services = () => {
       <div
         data-aos="zoom-in"
         data-aos-delay="100"
-        className="flex flex-col justify-center items-center gap-2"
+        className="flex flex-col justify-center items-center gap-2 cursor-pointer"
       >
         <img src={shipping} alt="" className="mb-[20px] w-[60px]" />
         <h1 className="text-xl text-black font-semibold">Worldwide Shipping</h1>
@@ -27,7 +27,7 @@ const Services = () => {
       <div
         data-aos="zoom-in"
         data-aos-delay="100"
-        className="flex flex-col justify-center items-center gap-2"
+        className="flex flex-col justify-center items-center gap-2 cursor-pointer"
       >
         <img src={payment} alt="" className="mb-[20px] w-[60px]" />
         <h1 className="text-xl text-black font-semibold">
@@ -40,7 +40,7 @@ const Services = () => {
       <div
         data-aos="zoom-in"
         data-aos-delay="100"
-        className="flex flex-col justify-center items-center gap-2"
+        className="flex flex-col justify-center items-center gap-2 cursor-pointer"
       >
         <img src={refund} alt="" className="mb-[20px] w-[60px]" />
         <h1 className="text-xl text-black font-semibold">Worldwide Shipping</h1>
@@ -51,7 +51,7 @@ const Services = () => {
       <div
         data-aos="zoom-in"
         data-aos-delay="100"
-        className="flex flex-col justify-center items-center gap-2"
+        className="flex flex-col justify-center items-center gap-2 cursor-pointer"
       >
         <img src={gift} alt="" className="mb-[20px] w-[60px]" />
         <h1 className="text-xl text-black font-semibold">Worldwide Shipping</h1>

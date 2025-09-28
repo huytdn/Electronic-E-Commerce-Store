@@ -34,12 +34,42 @@ const Insta = () => {
         data-aos-delay="300"
         className="w-full grid lg:grid-cols-6 grid-cols-1 justify-center items-center gap-6 mt-8"
       >
-        <img src={insta1} alt="" className="rounded-lg" />
-        <img src={insta2} alt="" className="rounded-lg" />
-        <img src={insta3} alt="" className="rounded-lg" />
-        <img src={insta4} alt="" className="rounded-lg" />
-        <img src={insta5} alt="" className="rounded-lg" />
-        <img src={insta6} alt="" className="rounded-lg" />
+        <img
+          src={insta1}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110 "
+        />
+        <img
+          src={insta2}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        />
+        <img
+          src={insta3}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        />
+        <img
+          src={insta4}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        />
+        <img
+          src={insta5}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        />
+        <img
+          src={insta6}
+          alt=""
+          className="rounded-lg cursor-pointer transition-transform duration-500 ease-in-out 
+           hover:scale-110"
+        />
       </div>
       <button
         data-aos="zoom-in"
